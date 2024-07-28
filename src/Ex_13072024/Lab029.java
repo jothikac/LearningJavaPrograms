@@ -10,11 +10,14 @@ public class Lab029 {
         double sub=a-b;
         double mul=a*b;
         double div=a/b;
+       // double div=a/b;
+
         System.out.printf("sum is %f",sum);
-        System.out.println();
+        System.out.println(); // one way for new line
         System.out.printf("sum is %f",sub);
         System.out.println();
         System.out.printf("sum is %f\n",mul);
-        System.out.printf("sum is %f\n",div);
+        System.out.printf("sum is %f\n",div); // /n -? another way of new line
+
     }
 }
